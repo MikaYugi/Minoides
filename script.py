@@ -196,6 +196,8 @@ elif choice=="4_lessons_tests": # 4 lessons avec 10 tests
 
     # Test :
     for i in range (0, 10):
+        x = random.randint(-1, 1)
+        y = random.randint(-1, 1)
         n += 1
         options['LogFileName'] = LogFileName+str(n)+".json"
         options['Learn'] = 'n'
